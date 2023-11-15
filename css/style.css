@@ -1,0 +1,139 @@
+body{
+    background-color: #CAD2C5;
+}
+.left{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background: #2F3D46;
+}
+.right{
+    background-color: blue;
+    height: 80px;
+}
+.left img{
+    width: 50px;;
+}
+.right{
+    display: flex;
+    align-items: center;
+    background: #2F3D46
+}
+.right h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 8.5em;
+    margin-bottom: 0;
+}
+.singleBox{
+    width: 60%;
+    height: 450px;
+    background-color: #353535;
+    border-radius: 20px;
+}
+.searchBox{
+    width: 80%;
+    height: 50px;
+    background-color: #353535;
+    border-radius: 8px;
+}
+.searchBox p{
+    color: #b4b4b4;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.threeBox{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.smallBox{
+    width: 25%;
+    height: 150px;
+    background-color: #353535;
+    border-radius: 15px;
+}
+.bottomBox{
+    width: 95%;
+    height: 150px;
+    background-color: #353535;
+    border-radius: 8px;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) { 
+    .right h5{
+     
+        margin-left: 5.7em;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-device-width: 900px) and (max-device-width: 1024px) { 
+    .right h5{
+     
+        margin-left: 4.8em;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 900px) { 
+    .right h5{
+     
+        margin-left: 4em;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-device-width: 425px) and (max-device-width: 767px) { 
+    .left{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #2F3D46;
+    }
+    .right{
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #2F3D46;
+    }
+    .right h5{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-left: 1em;
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 424px) { 
+    .left{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #2F3D46;
+    }
+    .right{
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #2F3D46;
+    }
+    .right h5{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-left: 1em;
+        margin-bottom: 0;
+    }
+
+  
+}
